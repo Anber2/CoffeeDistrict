@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "8620260846",
+    "firebase_url": "https://coffee-district.firebaseio.com",
+    "project_id": "coffee-district",
+    "storage_bucket": "coffee-district.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8620260846:android:0f81395599dd5f03",
+        "android_client_info": {
+          "package_name": "mawaqaajo.com.coffeedistrict"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8620260846-ngr4t2i6ejhhcj9rrkvrg44ge7lh1p81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR0xUAJzgi_vwxkNpfrdQzRtSSsegGSZU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

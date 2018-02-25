@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/White"
+    android:orientation="vertical">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/contact_us_intru_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our customer service agents are available 24 hours to make sure that all your issues and inquiries are resolved. Please ill the below contact form and we make sure to get back to you as soon as possible." />
+
+            <EditText
+                android:id="@+id/contact_us_editText_firstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                android:textColorHint="#D3D3D3" />
+
+            <EditText
+                android:id="@+id/contact_us_editText_lastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Last Name"
+                android:inputType="textPersonName"
+                android:textColorHint="#D3D3D3" />
+
+            <EditText
+                android:id="@+id/contact_us_editText_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#D3D3D3" />
+
+            <EditText
+                android:id="@+id/contact_us_editText_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Phone"
+                android:inputType="number"
+                android:textColorHint="#D3D3D3" />
+
+            <EditText
+                android:id="@+id/contact_us_editText_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Message"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#D3D3D3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/contact_us_button_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/submi_button"
+                    android:scaleType="fitXY"
+                    android:text="Submit"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/contact_us_info_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_us_contact_info"
+                android:textColor="#C19A6B"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

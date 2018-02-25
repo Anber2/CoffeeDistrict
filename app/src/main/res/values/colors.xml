@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B59778</color>
+    <color name="colorPrimaryDark">#cb8c6946</color>
+    <color name="colorAccent">#B59778</color>
+    <color name="Silver">#e5e5e5</color>
+    <color name="Black">#b9000000</color>
+    <color name="White">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="Blue">#bfbebe</color>
+    <color name="Kohly">#323046</color>
+    <color name="brown">#3B170B</color>
+    <color name="bg">#D9bfbebe</color>
+    <color name="bg2">#D9B59778</color>
+    <color name="Kohly_fateh">#4B495F</color>
+    <color name="online_green_normal">#207903</color>
+    <color name="online_green_pressed">#20aa03</color>
+    <color name="background_tabs">#040f21</color>
+    <color name="sakany_fateh">#EFEFEF</color>
+    <color name="main_txt_color">#b2b2b2</color>
+    <color name="feed_bg">#d3d6db</color>
+    <color name="payment_dark">#B1ADAC</color>
+    <color name="payment_bg">#C5C1BE</color>
+    <color name="payment_txt">#d3d1cf</color>
+    <color name="menu_bg">#5E5E5E</color>
+    <color name="bg_screen">#c7c5c8</color>
+</resources>

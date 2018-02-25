@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="mawaqaajo.com.coffeedistrict.Activities.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:fitsSystemWindows="true"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+
+        <ImageView
+            android:id="@+id/toolbar_img"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+
+            android:gravity="center"
+            android:textColor="@color/White"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <!--  android:layout_alignRight="@+id/serach"-->
+
+        <FrameLayout
+            android:id="@+id/search_fake_button"
+            android:layout_width="50dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:fitsSystemWindows="true">
+
+            <ImageView
+                android:id="@+id/search_fake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:src="@drawable/search_icon" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/drawer_button"
+            android:layout_width="50dp"
+            android:layout_height="?attr/actionBarSize"
+            android:clickable="true"
+            android:fitsSystemWindows="true">
+
+            <ImageView
+                android:id="@+id/imgmenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:src="@drawable/menu_n" />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/filter_drawer"
+            android:layout_width="50dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/serach"
+            android:clickable="true"
+            android:fitsSystemWindows="true">
+
+            <ImageView
+                android:id="@+id/filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:src="@drawable/filter_icon" />
+        </FrameLayout>
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/serach"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentRight="true">
+
+        </android.support.v7.widget.SearchView>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="vertical"></FrameLayout>
+
+</LinearLayout>
